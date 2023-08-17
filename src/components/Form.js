@@ -26,7 +26,7 @@ function handleInput(e , key){
                   <div>
 
                         <label for = {element.name}>{element.label}</label>  
-                         <input type={element.type} onChange={e => handleInput(e , element.label)}  /> 
+                         <input type={element.type} onChange={e => handleInput(e , element.name)}  /> 
                   </div>
                         
               
